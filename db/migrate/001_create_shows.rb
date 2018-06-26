@@ -1,9 +1,9 @@
-class CreateShows 
-  def change 
+class CreateShows
+  def change
     create_table :shows do |t|
       t.string :day
       t.string :network
       t.string :name
       t.integer :rating
-  end 
+  end
 end 
